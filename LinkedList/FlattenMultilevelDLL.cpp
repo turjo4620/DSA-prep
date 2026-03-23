@@ -4,14 +4,30 @@ using namespace std;
 #include"LinkedList.h"
 
 /*
-// Definition for a Node.
-class Node {
-public:
-    int val;
-    Node* prev;
-    Node* next;
-    Node* child;
-};
+🧠 Problem Statement
+
+You are given a multilevel doubly linked list:
+
+Each node has:
+val
+next
+prev
+optional child → another doubly linked list
+Flatten the list so all nodes appear in a single-level doubly linked list
+Child pointers should be set to NULL in the result
+
+
+📌 Example
+1 - 2 - 3 - 4 - 5 - 6
+        |
+        7 - 8 - 9 - 10
+            |
+            11 - 12
+
+Flattened:
+
+1 - 2 - 3 - 7 - 8 - 11 - 12 - 9 - 10 - 4 - 5 - 6
+
 */
 
 class Solution {
