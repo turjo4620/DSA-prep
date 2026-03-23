@@ -1,6 +1,8 @@
 struct ListNode {
     int val;
     ListNode* next;
+    ListNode* child;
+    ListNode* prev;
 
     // Constructor 1
     ListNode() {
